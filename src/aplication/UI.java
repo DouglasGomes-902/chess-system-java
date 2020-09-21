@@ -42,7 +42,7 @@ public class UI {
 		char column = s.charAt(0);
 		int row = Integer.parseInt(s.substring(1));
 		return new chessPosition(column, row);
-	}
+	} 
 		catch(RuntimeException e) {
 			throw new InputMismatchException("Error reading ChessPosition.valid values are from a1  to 81 ");
 		}
