@@ -2,17 +2,13 @@ package chess.pieces;
 
 import Boardgame.Board;
 import Boardgame.Position;
-import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.Color;
 
 public class Pawn extends ChessPiece {
 
-	private ChessMatch chessMatch;
-	
-	public Pawn(Board board, Color color, ChessMatch chessMatch) {
+	public Pawn(Board board, Color color) {
 		super(board, color);
-		this.chessMatch = chessMatch;
 	}
 
 	@Override
